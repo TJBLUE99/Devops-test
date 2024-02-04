@@ -27,8 +27,8 @@ Steps to build CI/CD pipeline comprising of Jenkins Sonarqube and docker. The co
   4. In tools configure sonar scanner.
   5. In global settings set the sonarqube url and generated token in the previous steps.
   6. In the next build step select sonar scanner and provide the generated project key in analysis properties.
-  7. Create a new step and run the command :
-     cd App /n
-     docker build -t nameofcontainer/n
-     docker run -p 5000:5000 nameofcontainer/n
+  7. Create a new step and run the command : <br />
+     cd App <br />
+     docker build -t nameofcontainer<br />
+     docker run -p 5000:5000 nameofcontainer<br />
    
