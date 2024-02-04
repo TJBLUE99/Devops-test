@@ -1,7 +1,9 @@
 # Jenkins-Sonarqube-Docker CI/CD Pipeline
+Steps to build CI/CD pipeline comprising of Jenkins Sonarqube and docker. The code is first pulled over Jenkins and is then passed to Sonarqube for analysis. The sonar runs the scans over the code base once the step is completed it is then converted into a docker image via a docker file present in the app folder. and then is deployed on the provided machine.
 
 1. Repo contains a sample Nodejs project for testing purposes.
 2. sonarqube-postgres-compose contains docker compose file for sonarqube and PostgresSQL.
+   
 # Steps to setup Jenkins: 
    1. Run the Jenkins server using war file with command:
       java -jar Jenkins.war
