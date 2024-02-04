@@ -19,4 +19,14 @@
    8. From settings generate token.
       
 # Steps for creating a pipeline:
+  1. Create a pipeline project.
+  2. configure git repo in source code management.
+  3. Download SonarScanner plugin through manager plugins.
+  4. In tools configure sonar scanner.
+  5. In global settings set the sonarqube url and generated token in the previous steps.
+  6. In the next build step select sonar scanner and provide the generated project key in analysis properties.
+  7. Create a new step and run the command :
+     cd App
+     docker build -t nameofcontainer
+     docker run -p 5000:5000 nameofcontainer 
    
