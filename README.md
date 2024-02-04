@@ -5,7 +5,7 @@ Steps to build CI/CD pipeline comprising of Jenkins Sonarqube and docker. The co
 2. sonarqube-postgres-compose contains docker compose file for sonarqube and PostgresSQL.
    
 # Steps to setup Jenkins: 
-   1. Run the Jenkins server using war file with command:
+   1. Run the Jenkins server using war file with command: <br/>
       java -jar Jenkins.war
    2. Copy the admin credentials from terminal to setup username and password.
       
