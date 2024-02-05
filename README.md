@@ -1,4 +1,7 @@
 # Jenkins-Sonarqube-Docker CI/CD Pipeline
+
+![image](https://github.com/TJBLUE99/Jenkins-Sonarqube-Docker/assets/94433394/ed9a37d1-6746-47d5-bde3-92c0a8835100)
+
 Steps to build CI/CD pipeline comprising of Jenkins Sonarqube and docker. The code is first pulled over Jenkins and is then passed to Sonarqube for analysis. The sonar runs the scans over the code base once the step is completed it is then converted into a docker image via a docker file present in the app folder. and then is deployed on the provided machine.
 
 1. Repo contains a sample Nodejs project for testing purposes.
